@@ -16,8 +16,17 @@ module Mtw
     # -- all .rb files in that directory are automatically loaded.
 
     # Custom directories with classes and modules you want to be autoloadable.
-    # config.autoload_paths += %W(#{config.root}/extras)
-
+    # config.autoload_paths += %W(#{config.root}/extras)    
+    # 
+    config.autoload_paths += %W( #{config.root}/app/models/physical )
+    config.autoload_paths += %W( #{config.root}/app/models/logical )    
+    # config.load_paths += %W( #{RAILS_ROOT}/app/models/helpers )
+    # config.load_paths += %W( #{RAILS_ROOT}/app/presenters )
+    
+    # don't load the scripts directory for now, this may change
+    # when we add testing  
+    config.eager_load_paths -= %W( #{config.root}/app/scripts )    
+        
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
     # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
