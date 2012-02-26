@@ -44,3 +44,5 @@ gem "nokogiri", ">=1.5.0"
 group :development, :test do
   gem 'rspec-rails'
 end
+
+# gem "fastercsv", ">=1.5.4"

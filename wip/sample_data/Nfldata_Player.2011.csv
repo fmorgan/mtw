@@ -1,0 +1,56 @@
+PlayerID,Team,Number,FirstName,LastName,Position,Status,Height,Weight,BirthDate,College,Experience
+1694,GB,2,Mason,Crosby,K,Active,6'1",207,9/3/1984,Colorado,5
+11393,GB,8,Tim,Masthay,P,Active,6'1",200,3/16/1987,Kentucky,2
+13246,GB,9,Shaky,Smithson,WR,Injured Reserve,5'11",202,8/23/1987,Utah,0
+3895,GB,10,Matt,Flynn,QB,Active,6'2",225,6/20/1985,LSU,4
+2593,GB,12,Aaron,Rodgers,QB,Active,6'2",225,12/2/1983,California,7
+13227,GB,18,Randall,Cobb,WR,Active,5'10",192,8/22/1990,Kentucky,0
+13232,GB,20,Alex,Green,RB,Active,6'0",225,6/23/1988,Hawaii,0
+2670,GB,21,Charles,Woodson,CB,Active,6'1",202,10/7/1976,Michigan,14
+6352,GB,22,Pat,Lee,DB,Active,6'0",196,2/20/1984,Auburn,4
+7280,GB,24,Jarrett,Bush,DB,Active,6'0",200,5/21/1984,Utah State,6
+3680,GB,25,Ryan,Grant,RB,Active,6'1",222,12/9/1982,Notre Dame,5
+10085,GB,26,Charlie,Peprah,DB,Active,5'11",203,2/24/1983,Alabama,6
+1589,GB,30,John,Kuhn,FB,Active,6'0",250,9/9/1982,Shippensburg,6
+13236,GB,31,Davon,House,DB,Active,6'0",195,7/10/1989,New Mexico State,0
+4872,GB,36,Nick,Collins,FS,Active,5'11",207,8/16/1983,Bethune-Cookman,7
+11402,GB,37,Sam,Shields,CB,Active,5'11",184,12/8/1987,Miami (Fla.),2
+3942,GB,38,Tramon,Williams,CB,Active,5'11",191,3/16/1983,Louisiana Tech,5
+11386,GB,42,Morgan,Burnett,SS,Active,6'1",209,1/13/1989,Georgia Tech,2
+13237,GB,43,M.D.,Jennings,CB,Active,6'0",187,7/25/1988,Arkansas State,0
+12506,GB,44,James,Starks,RB,Active,6'2",218,2/25/1986,Buffalo,2
+12008,GB,49,Rob,Francois,LB,Active,6'2",255,5/14/1985,Boston College,2
+6506,GB,50,A.J.,Hawk,ILB,Active,6'1",247,1/6/1984,Ohio State,6
+13245,GB,51,D.J.,Smith,LB,Active,5'11",239,2/24/1989,Appalachian State,0
+9051,GB,52,Clay,Matthews,OLB,Active,6'3",255,5/14/1986,USC,3
+1003,GB,55,Desmond,Bishop,ILB,Active,6'2",238,7/24/1984,California,5
+13239,GB,57,Jamari,Lattimore,LB,Active,6'2",230,10/6/1988,Middle Tennessee State,0
+12195,GB,58,Frank,Zombo,LB,Active,6'3",254,3/5/1987,Central Michigan,2
+9049,GB,59,Brad,Jones,LB,Active,6'3",242,4/1/1986,Colorado,3
+5633,GB,61,Brett,Goode,LS,Active,6'1",255,11/2/1984,Arkansas,4
+9042,GB,62,Evan,Dietrich-Smith,OG,Active,6'2",308,7/19/1986,Idaho State,2
+1507,GB,63,Scott,Wells,C,Active,6'2",300,1/7/1981,Tennessee,8
+9050,GB,70,T.J.,Lang,G,Active,6'4",318,9/20/1987,Eastern Michigan,3
+3339,GB,71,Josh,Sitton,OG,Active,6'3",318,6/6/1986,Central Florida,4
+11398,GB,74,Marshall,Newhouse,G,Active,6'4",319,9/29/1988,Texas Christian,2
+11385,GB,75,Bryan,Bulaga,OT,Active,6'5",314,3/21/1989,Iowa,2
+7593,GB,76,Chad,Clifton,T,Active,6'5",320,6/26/1976,Tennessee,12
+13244,GB,78,Derek,Sherrod,T,Active,6'5",321,4/23/1989,Mississippi State,0
+5601,GB,79,Ryan,Pickett,DE,Active,6'2",340,10/8/1979,Ohio State,11
+7452,GB,80,Donald,Driver,WR,Active,6'0",194,2/2/1975,Alcorn State,13
+11400,GB,81,Andrew,Quarless,TE,Active,6'4",252,10/6/1988,Penn State,2
+13249,GB,82,Ryan,Taylor,TE,Active,6'3",254,11/16/1987,North Carolina,0
+12007,GB,83,Tom,Crabtree,TE,Active,6'4",245,11/4/1985,Miami (Ohio),2
+13250,GB,84,D.J.,Williams,TE,Active,6'2",245,9/10/1988,Arkansas,0
+6597,GB,85,Greg,Jennings,WR,Active,5'11",198,9/21/1983,Western Michigan,6
+4556,GB,87,Jordy,Nelson,WR,Active,6'3",217,5/31/1985,Kansas State,4
+3671,GB,88,Jermichael,Finley,TE,Active,6'5",247,3/26/1987,Texas,4
+6302,GB,89,James,Jones,WR,Active,6'1",208,3/31/1984,San Jose State,5
+9057,GB,90,B.J.,Raji,NT,Active,6'2",337,7/11/1986,Boston College,3
+13234,GB,91,Lawrence,Guy,DE,Injured Reserve,6'4",305,3/17/1990,Arizona State,0
+12424,GB,93,Erik,Walden,OLB,Active,6'2",250,8/21/1985,Middle Tennessee State,4
+9066,GB,94,Jarius,Wynn,DE,Active,6'3",285,8/29/1986,Georgia,3
+8398,GB,95,Howard,Green,DT,Active,6'2",340,1/12/1979,LSU,7
+11397,GB,96,Mike,Neal,DE,Active,6'3",294,6/26/1987,Purdue,2
+13247,GB,97,Vic,So'oto,LB,Active,6'3",263,1/1/1987,Brigham Young,0
+11405,GB,98,C.J.,Wilson,DE,Active,6'3",290,3/30/1987,East Carolina,2

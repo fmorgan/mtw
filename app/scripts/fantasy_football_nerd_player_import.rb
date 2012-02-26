@@ -1,4 +1,4 @@
-# rails r app/scripts/fantasy_football_nerd_slurp.rb 
+# rails r app/scripts/fantasy_football_nerd_player_import.rb 
 
 require 'net/http'
 
@@ -8,34 +8,32 @@ FANTAY_FOOTBALL_NERDS_PLAYERS_URL = "http://api.fantasyfootballnerd.com/ffnPlaye
 begin  
   
   # to use the api
-  u = URI( "#{FANTAY_FOOTBALL_NERDS_PLAYERS_URL}#{FANTASY_FOOTBALL_NERDS_API_KEY}" )
-  r = Net::HTTP.get u
-  x = Nokogiri::XML( r )
+  # u = URI( "#{FANTAY_FOOTBALL_NERDS_PLAYERS_URL}#{FANTASY_FOOTBALL_NERDS_API_KEY}" )
+  # r = Net::HTTP.get u
+  # x = Nokogiri::XML( r )
   
   # to read from a file
-  # f = File.open( "wip/ffnPlayersXML.xml" )
-  # x = Nokogiri::XML( f )
+  f = File.open( "wip/sample_data/ffnPlayersXML.xml" )
+  x = Nokogiri::XML( f )
 
-  puts x
+  # puts x
   
   ns = x.xpath( "//Results/Player" )  
   ns.each do |n|
     as = n.attributes
+    h = Hash.new
     
-    p = Player.find_by_full_name as['Name'].text
-    
-    if p.nil?
-      p = Player.new
-      
-      p.full_name = as['Name'].text
-      p.team = as['Team'].text
-      p.position = as['Position'].text
-      
-      p.save!
-    else
-      # todo: check for changes  
-    end
-    
+    puts "importing: #{as}..."
+        
+    h[:full_name] = as['Name'].text
+    h[:team] = as['Team'].text
+    h[:position] = as['Position'].text
+        
+    begin
+      PlayerLogic.create_or_update_player( h )
+    rescue Exception => e
+      $stderr.puts "exception with 'create_or_update_player': #{e}"
+    end      
   end  
 rescue Exception => e
   $stderr.puts "exception: #{e}"

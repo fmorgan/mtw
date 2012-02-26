@@ -44,4 +44,26 @@ describe Player do
     
     lambda{ p.save! }.should raise_error
   end  
+  
+  it "should allow a record to be saved with a 'first name' and 'last name'" do
+    p = Player.new
+
+    p.first_name = "Alex"    
+    p.last_name = "Smith"    
+    p.position = "QB"
+    p.team = "SF"
+    
+    lambda{ p.save! }.should_not raise_error
+  end  
+
+  it "should not allow a record to be saved with a nil 'first name' and 'last name'" do
+    p = Player.new
+
+    # p.first_name = "Alex"    
+    # p.last_name = "Smith"    
+    p.position = "QB"
+    p.team = "SF"
+    
+    lambda{ p.save! }.should raise_error
+  end    
 end

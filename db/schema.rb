@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120219025441) do
+ActiveRecord::Schema.define(:version => 20120225221026) do
+
+  create_table "player_journals", :force => true do |t|
+    t.integer  "player_id"
+    t.string   "event"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "details"
+    t.integer  "lock_version", :default => 0
+  end
 
   create_table "players", :force => true do |t|
     t.string   "full_name"
@@ -21,6 +30,8 @@ ActiveRecord::Schema.define(:version => 20120219025441) do
     t.string   "team"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "status"
+    t.integer  "lock_version", :default => 0
   end
 
 end
