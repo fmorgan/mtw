@@ -46,3 +46,5 @@ group :development, :test do
 end
 
 # gem "fastercsv", ">=1.5.4"
+
+gem "devise", "2.0.4"

@@ -1,4 +1,7 @@
 Mtw::Application.routes.draw do
+
+  devise_for :users
+
   resources :players
 
   # The priority is based upon order of creation:
